@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENTOREE"
+            android:layout_marginLeft="12dp"
+            android:textSize="18sp"
+            android:textColor="#DADADA"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/mess"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/message"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="280dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HALL OF FAME"
+            android:layout_marginLeft="12dp"
+            android:textSize="40dp"
+            android:textColor="#DADADA"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/rec1"
+                        android:layout_width="170dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/hrectangle"
+                        android:layout_marginTop="18dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caldo Michael"
+                        android:textSize="24dp"
+                        android:textColor="#DADADA"
+                        android:layout_below="@+id/rec1"
+                        android:id="@+id/name1" />
+                    <TextView
+                        android:id="@+id/sec1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BSCS"
+                        android:textSize="12sp"
+                        android:textColor="#DADADA"
+                        android:layout_below="@+id/name1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="System Technology Institute"
+                        android:textSize="12sp"
+                        android:textColor="#DADADA"
+                        android:layout_below="@+id/sec1"
+                        android:id="@+id/system1"
+                        />
+
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp">
+
+                    <ImageView
+                        android:id="@+id/rec2"
+                        android:layout_width="170dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/hrectangle"
+                        android:layout_marginTop="18dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caldo Michael"
+                        android:textSize="24dp"
+                        android:textColor="#DADADA"
+                        android:layout_below="@+id/rec2"
+                        android:id="@+id/name2"
+                        />
+                    <TextView
+                        android:id="@+id/sec2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bscs"
+                        android:textSize="12sp"
+                        android:textColor="#DADADA"
+                        android:layout_below="@+id/name2"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="System Technology Institute"
+                        android:textSize="12sp"
+                        android:textColor="#DADADA"
+                        android:layout_below="@+id/sec2"
+                        />
+
+                    />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp">
+
+                    <ImageView
+                        android:id="@+id/rec3"
+                        android:layout_width="170dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/hrectangle"
+                        android:layout_marginTop="18dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caldo Michael"
+                        android:textSize="24dp"
+                        android:textColor="#DADADA"
+                        android:layout_below="@+id/rec3"
+                        android:id="@+id/name3"
+                        />
+                    <TextView
+                        android:id="@+id/sec3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bscs"
+                        android:textSize="12sp"
+                        android:textColor="#DADADA"
+                        android:layout_below="@+id/name3"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="System Technology Institute"
+                        android:textSize="12sp"
+                        android:textColor="#DADADA"
+                        android:layout_below="@+id/sec3"
+                        />
+
+                    />
+                </RelativeLayout>
+            </LinearLayout>
+    </HorizontalScrollView>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="320dp"
+          android:id="@+id/suggestion"
+          >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Suggestion"
+              android:layout_marginLeft="10dp"
+              android:textSize="20sp"
+              android:textColor="#DADADA"
+              />
+        </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/suggestion"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/suggestion2"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/rec4"
+                    android:layout_width="170dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/hrectangle"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="programing"
+                    android:textSize="24dp"
+                    android:textColor="#DADADA"
+                    android:layout_below="@+id/rec4"
+                    android:id="@+id/name4" />
+                <TextView
+                    android:id="@+id/sec4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="caldo michael"
+                    android:textSize="12sp"
+                    android:textColor="#DADADA"
+                    android:layout_below="@+id/name4"
+                    />
+
+
+                />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp">
+
+                <ImageView
+                    android:id="@+id/rec5"
+                    android:layout_width="170dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/hrectangle"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Business"
+                    android:textSize="24dp"
+                    android:textColor="#DADADA"
+                    android:layout_below="@+id/rec5"
+                    android:id="@+id/name5"
+                    />
+                <TextView
+                    android:id="@+id/sec5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="caldo michael"
+                    android:textSize="12sp"
+                    android:textColor="#DADADA"
+                    android:layout_below="@+id/name5"
+                    />
+
+                />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/suggestion2"
+        android:layout_marginLeft="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/rec6"
+                    android:layout_width="170dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/hrectangle"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="programing"
+                    android:textSize="24dp"
+                    android:textColor="#DADADA"
+                    android:layout_below="@+id/rec6"
+                    android:id="@+id/name6" />
+                <TextView
+                    android:id="@+id/sec6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="caldo michael"
+                    android:textSize="12sp"
+                    android:textColor="#DADADA"
+                    android:layout_below="@+id/name6"
+                    />
+
+
+                />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp">
+
+                <ImageView
+                    android:id="@+id/rec7"
+                    android:layout_width="170dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/hrectangle"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Business"
+                    android:textSize="24dp"
+                    android:textColor="#DADADA"
+                    android:layout_below="@+id/rec7"
+                    android:id="@+id/name7"
+                    />
+                <TextView
+                    android:id="@+id/sec7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="caldo michael"
+                    android:textSize="12sp"
+                    android:textColor="#DADADA"
+                    android:layout_below="@+id/name7"
+                    />
+
+                />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

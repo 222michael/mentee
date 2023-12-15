@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".username">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/intro"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:id="@+id/arrowl"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/arrowleft"
+            android:layout_marginTop="23dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:layout_marginLeft="120dp"
+            android:textSize="24sp"
+            android:textColor="#DADADA"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/textButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:layout_below="@+id/sep3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="24sp"
+            android:textColor="#1F41BB"
+            android:background=""/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro"
+        android:id="@+id/Sanderss"
+        >
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter text"
+            android:inputType="text"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:text="czzzon"
+            android:textColor="#DADADA"
+            android:background=""
+            android:alpha=".3"/>
+
+
+    </LinearLayout>
+    <View
+        android:id="@+id/sep3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_below="@+id/Sanderss"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"/>
+</RelativeLayout>
